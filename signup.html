@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Baby Bee</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	
+</head>
+<body>
+<div id="page">	
+	<img class="wave" src="img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="img/bg.svg">
+		</div>
+		<div class="login-content">
+			<form action="index.html">
+				<img src="img/images.jpeg">
+				<h2 class="title">Welcome</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Email id</h5>
+           		   		<input type="text" id="email_field1" class="input">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>New-password</h5>
+						   <input type="password" id="password_field1" class="input">
+						 
+				   </div></div>
+				   <div class="input-div pass">
+					<div class="i"> 
+						<i class="fas fa-lock"></i>
+				   </div>
+				   <div class="div">
+					<h5>Retype-password</h5>
+					<input type="password" id="password_field2" class="input">
+				  
+			</div>
+				  
+				</div>
+			<div class="go">
+            	<a href="#">Forgot Password?</a>
+			</div>
+			<div class="go1">
+				<a type="submit" class="btn" onclick="signup()">sign up</a>
+				<a type="submit" class="btn"href="index.html" style="text-decoration: none;">log in</a>
+				
+			</div>
+			<div class="go12">
+			
+				
+				</div>
+            </form>
+        </div>
+	</div>
+</div>
+	<div id="app">
+		<app-root></app-root>
+	</div>
+	<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase.js"></script>
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+		 https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDrQJs6UAqZpf11ONyTuTtia161FUki93Y",
+    authDomain: "block-chain-cf4a5.firebaseapp.com",
+    databaseURL: "https://block-chain-cf4a5.firebaseio.com",
+    projectId: "block-chain-cf4a5",
+    storageBucket: "block-chain-cf4a5.appspot.com",
+    messagingSenderId: "773342027503",
+    appId: "1:773342027503:web:8c1617554553b7396ec51a",
+    measurementId: "G-7FJPZV1PGR"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+ 
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/venobox/venobox.min.js"></script>
+<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/js/main.js"></script>
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+
+</body>
+
+</html>
